@@ -1,5 +1,6 @@
 //need find part of Euclidian plane
 
+//variant 1
 function quadrant(x, y) {
     if(x > 0 && y > 0){
         return 1
@@ -14,6 +15,11 @@ function quadrant(x, y) {
         return 4
     }
 }
+
+//variant 2
+// function quadrant(x, y) {
+//     return x > 0 ? y > 0 ? 1 : 4 : y > 0 ? 2 : 3;
+// }
 
 //TEST
 
